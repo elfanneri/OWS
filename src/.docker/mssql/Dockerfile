@@ -8,6 +8,6 @@ COPY . /user/config
 RUN chmod +x /user/config/entrypoint.sh
 RUN chmod +x /user/config/initialization.sh
 
-EXPOSE 1434
+EXPOSE 1433
 
 ENTRYPOINT ["./entrypoint.sh"]
